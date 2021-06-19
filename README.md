@@ -4,10 +4,9 @@ Each folder in this project is a stand-alone module presenting the concept/idea/
 
 ### Run module code
 
-1. Navigate to module you wanna run
+1. Navigate to module you want to run
 2. Install node_modules: `npm install`
-3. Compile TS to javascript file: `tsc <your file or folder>`
-4. Start: `npm start`
+3. Start: `npm start`
 
 ### IDE Setup
 
