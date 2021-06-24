@@ -24,4 +24,8 @@ yarn-error.log*
 
 *package-lock.json
 
+# vscode
 .vscode/
+
+# build
+**/dist
