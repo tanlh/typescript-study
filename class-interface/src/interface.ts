@@ -3,7 +3,7 @@
  * - How to declare interface
  * - Use interface with class
  * - Readonly properties in interface
- * - Interface extend interface
+ * - Interface inheritance
  * - Interface as function types
  * - Optional parameters and properties
  */

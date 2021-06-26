@@ -23,5 +23,4 @@ This module aims to introduce types of typescript, know how typescript work
 
 1. Install node_modules: `npm install`
 2. Compile TS to javascript file: `tsc -w`
-3. Replace compiled javascript file inside index.html
-4. Start: `npm start`
+3. Start: `npm start`

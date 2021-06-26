@@ -2,11 +2,10 @@
  * Learn about:
  * - Function type
  * - Void return type
- * - Never return type
  */
 
 console.log("");
-console.log("============== Function - void - never ==============");
+console.log("============== Function - void type ==============");
 
 // 'void' return type
 // 'void' doesn't force we return anything if we don't want
@@ -65,9 +64,3 @@ addAndHandler(10, 15, (result) => {
 addAndHandler(258, 154, (result) => {
   console.log("Callback with return", result);
 });
-
-// 'never' type, function never returns anything
-// by default, 'void' type is inferenced
-function throwException(message: string): never {
-  throw { message };
-}

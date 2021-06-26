@@ -12,6 +12,7 @@ console.log("============== Union type ==============");
 function combine(arg1: number | string, arg2: number | string) {
   //   return arg1 + arg2; ERROR, operator '+' cannot apply to number | string
   let result: string | number;
+  // for union type, have to do type check before do something
   if (typeof arg1 === "number" && typeof arg2 === "number") {
     result = arg1 + arg2;
   } else {
