@@ -1,3 +1,13 @@
+/**
+ * Learn about:
+ * - Union type
+ * - Literal type
+ * - Type alias
+ */
+
+console.log("");
+console.log("============== Union type ==============");
+
 // 'union' type, union multiple types
 function combine(arg1: number | string, arg2: number | string) {
   //   return arg1 + arg2; ERROR, operator '+' cannot apply to number | string
@@ -17,6 +27,9 @@ console.log(numberCombine); // 3
 const stringCombine = combine("Tan", "Trang");
 console.log(stringCombine); // 'TanTrang'
 
+console.log("");
+console.log("============== Literal type ==============");
+
 // 'literal' type, the union of some certain strings
 function printResult(
   result: number | string,
@@ -32,6 +45,9 @@ function printResult(
 printResult(20, "as-string");
 printResult("124124", "as-number");
 printResult("Tan", "as-text"); // ERROR, wrong type
+
+console.log("");
+console.log("============== Type alias ==============");
 
 // type alias
 type UserRole = "admin" | "guest";

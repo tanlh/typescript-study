@@ -1,3 +1,14 @@
+/**
+ * Learn about:
+ * - Object type, object assignment and inference
+ * - Array type
+ * - Tuple type
+ * - Enum type
+ */
+
+console.log("");
+console.log("============== Object type ==============");
+
 // 'object' type assignment
 const person1: { name: string; age: number; hobbies: string[] } = {
   name: "Tan",
@@ -16,13 +27,18 @@ const person2 = {
 
 console.log(person2.city); // ERROR, missing key
 
-// 'array' type
+console.log("");
+console.log("============== Array type ==============");
+
 let testArray: string[] = ["First string", "Second string"];
 testArray.push("Third string");
 
 for (const item of testArray) {
   console.log(item);
 }
+
+console.log("");
+console.log("============== Tuple type ==============");
 
 // 'tuple' type, fixed size array (2)
 let testTuple: [number, string] = [1, "right"];
@@ -33,7 +49,9 @@ testTuple.push("rightUpdate"); // Exceptional case: can push to tuple
 
 console.log(testTuple); // [1, 'right', 'rightUpdate']
 
-// 'enum' type
+console.log("");
+console.log("============== Enum type ==============");
+
 enum Role {
   ADMIN = "Admin",
   MOD = "Mod",

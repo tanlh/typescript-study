@@ -1,3 +1,13 @@
+/**
+ * Learn about:
+ * - Function type
+ * - Void return type
+ * - Never return type
+ */
+
+console.log("");
+console.log("============== Function - void - never ==============");
+
 // 'void' return type
 // 'void' doesn't force we return anything if we don't want
 // besides, we can return value if we want with 'void'

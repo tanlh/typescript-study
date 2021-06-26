@@ -1,4 +1,11 @@
-// Primtive types: number, boolean, string
+/**
+ * Learn about: primitive types
+ * - number
+ * - string
+ * - boolean
+ */
+
+console.log("============== Primitive types ==============");
 
 function add(
   n1: number,

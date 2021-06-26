@@ -1,3 +1,13 @@
+/**
+ * Learn about:
+ * - Any type
+ * - Unknown type
+ * - Undefined type
+ */
+
+console.log("");
+console.log("============== Any - unknown - undefined type ==============");
+
 // 'any' type
 // can assign any value to variable with 'any' type
 // can assign 'any' type variable to other type as well
