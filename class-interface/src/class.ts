@@ -6,7 +6,6 @@
  * - Readonly field
  * - Getter/setter
  * - Static field/method
- *
  */
 
 console.log("============== Class declaration ==============");
